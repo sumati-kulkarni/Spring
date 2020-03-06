@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="DynamicWebProject" path="/DynamicWebProject" reloadable="true" source="org.eclipse.jst.jee.server:DynamicWebProject"/><Context docBase="BasicSpringMVC" path="/BasicSpringMVC" reloadable="true" source="org.eclipse.jst.jee.server:BasicSpringMVC"/><Context docBase="BasicFormSpringMVC" path="/BasicFormSpringMVC" reloadable="true" source="org.eclipse.jst.jee.server:BasicFormSpringMVC"/><Context docBase="RequestParamModelSpringMVC" path="/RequestParamModelSpringMVC" reloadable="true" source="org.eclipse.jst.jee.server:RequestParamModelSpringMVC"/></Host>
+      <Context docBase="DynamicWebProject" path="/DynamicWebProject" reloadable="true" source="org.eclipse.jst.jee.server:DynamicWebProject"/><Context docBase="BasicSpringMVC" path="/BasicSpringMVC" reloadable="true" source="org.eclipse.jst.jee.server:BasicSpringMVC"/><Context docBase="BasicFormSpringMVC" path="/BasicFormSpringMVC" reloadable="true" source="org.eclipse.jst.jee.server:BasicFormSpringMVC"/><Context docBase="RequestParamModelSpringMVC" path="/RequestParamModelSpringMVC" reloadable="true" source="org.eclipse.jst.jee.server:RequestParamModelSpringMVC"/><Context docBase="ModelAndViewSpringMVC" path="/ModelAndViewSpringMVC" reloadable="true" source="org.eclipse.jst.jee.server:ModelAndViewSpringMVC"/></Host>
     </Engine>
   </Service>
 </Server>
