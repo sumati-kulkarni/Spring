@@ -33,18 +33,23 @@ public class App {
 			
 			
 			
-			session.beginTransaction();
-			User insertUser = new User();
-			insertUser = session.get(User.class, 1);
+			// session.beginTransaction();
+			// User insertUser = new User();
+			// insertUser = session.get(User.class, 1);
 			
 			// To update
 			// insertUser.setFirstName("Sumi");
 			
 			// To delete
 			// session.delete(insertUser);
-			session.getTransaction().commit();
-			System.out.println(insertUser);
+			// session.getTransaction().commit();
+			// System.out.println(insertUser);
 			
+			
+			// To list records
+			// session.beginTransaction();
+			// List<User> users = session.createQuery("from users").getResultList();
+			// List<User> users = session.createQuery("from users where first_name = 'sumati'").getResultList();
 		} finally {
 			session.close();
 			sessionFactory.close();
