@@ -5,7 +5,7 @@
 
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
 <meta charset="ISO-8859-1">
 <title>Team Members</title>
 </head>
